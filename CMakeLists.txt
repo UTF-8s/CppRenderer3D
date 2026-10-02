@@ -15,5 +15,8 @@ aux_source_directory(${CMAKE_CURRENT_SOURCE_DIR}/src SRC_LIST)
 message(STATUS "SRC_LIST = ${SRC_LIST}")
 add_executable(CppRenderer3D ${SRC_LIST})
 
+# 导入库
+# target_include_directories(CppRenderer3D PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/src)
+
 # 链接
 target_link_libraries(CppRenderer3D PRIVATE minifb)

@@ -1,5 +1,6 @@
-#include <iostream>
+#include "Renderer.h"
 
 int main() {
-    std::cout << "Hello" << std::endl;
+    Renderer renderer(800, 600);
+    renderer.Run();
 }
