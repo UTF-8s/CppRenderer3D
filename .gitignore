@@ -1,0 +1,59 @@
+# 编译生成的对象文件
+*.o
+*.obj
+*.slo
+*.lo
+# 预编译头文件
+*.gch
+*.pch
+# 链接器文件
+*.ilk
+# 调试器文件
+*.pdb
+*.dwo
+# 动态库
+*.so
+*.dylib
+*.dll
+*.so.*
+# 静态库
+*.a
+*.lib
+*.lai
+*.la
+# 可执行文件
+*.exe
+*.out
+*.app
+# 构建目录
+build/
+Build/
+build-*/
+# CMake生成文件
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+# 临时文件
+*.tmp
+*.log
+*.bak
+*.swp
+# vcpkg安装目录
+vcpkg_installed/
+# 测试输出和缓存
+Testing/
+.cache/
+
+# Visual Studio临时文件
+*.user
+*.suo
+*.vcxproj.user
+*.ncb
+*.opensdf
+*.sdf
+*.ipch
+# VS生成日志
+[Bb]uild[Ll]og.*
